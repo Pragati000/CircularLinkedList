@@ -94,6 +94,10 @@ public class CircularLinkedList {
 
         }
         linkedList.print();
+        System.out.println("insert at tail");
+
+        linkedList.addNodeToTail(45);
+
 
 
     }
