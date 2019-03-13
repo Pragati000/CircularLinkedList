@@ -5,6 +5,10 @@ public class CircularLinkedList {
    Node head=null;
    Node tail=null;
    class Node{
+       int data;
+       Node next;
 
+
+       }
    }
 }
