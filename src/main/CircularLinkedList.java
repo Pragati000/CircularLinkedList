@@ -98,7 +98,10 @@ public class CircularLinkedList {
 
         linkedList.addNodeToTail(45);
 
-
+        linkedList.print();
+        System.out.println("deleting at head");
+        linkedList.deleteHead();
+        linkedList.print();
 
     }
 
