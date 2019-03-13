@@ -88,6 +88,12 @@ public class CircularLinkedList {
     public static void main(String[] args) {
         CircularLinkedList linkedList=new CircularLinkedList();
         linkedList.print();
+        System.out.println("inserting at head");
+        for (int i = 0; i <5 ; i++) {
+            linkedList.addNodeToHead(i+1);
+
+        }
+        linkedList.print();
 
 
     }
