@@ -48,5 +48,20 @@ public class CircularLinkedList {
                System.out.println("");
            }
        }
+    public void addNodeToHead(int data) {
+        Node n = new Node(data);
+        if (size == 0) {
+            head = n;
+            tail = n;
+            n.next = head;
+        } else {
+            Node temp = head;
+            n.next = temp;
+            head = n;
+            tail.next = head;
+        }
+        size++;
+    }
+
 
 }
